@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- k8s-notify_v1_notifyservice.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples

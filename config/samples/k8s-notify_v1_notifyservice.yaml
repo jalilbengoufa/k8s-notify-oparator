@@ -1,0 +1,9 @@
+apiVersion: k8s-notify.jalilb.dev/v1
+kind: NotifyService
+metadata:
+  labels:
+    app.kubernetes.io/name: k8s-notify-oparator
+    app.kubernetes.io/managed-by: kustomize
+  name: notifyservice-sample
+spec:
+  # TODO(user): Add fields here
